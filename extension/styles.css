@@ -1,0 +1,13 @@
+ytd-guide-entry-renderer:has(a#endpoint[href*="/shorts"]),
+ytd-guide-entry-renderer:has(a#endpoint[title="Shorts" i]) {
+	display: none !important;
+}
+
+ytd-mini-guide-entry-renderer:has(a[href*="/shorts"]),
+ytd-mini-guide-entry-renderer:has(a[title="Shorts" i]) {
+	display: none !important;
+}
+
+ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]) {
+	display: none !important;
+}
